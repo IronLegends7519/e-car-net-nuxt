@@ -1,19 +1,16 @@
 <template>
-<a href="car-car.modele">
+<NuxtLink :to="`/car/${car.model}/${car.id}`">
     <article>
         <h2>{{car.marque}}</h2>
-        <p>{{car.modele}}</p>
+        <p>{{car.model}}</p>
     </article>
-</a>
+</NuxtLink>
 </template>
 
 <script>
 export default {
   props: {
     car: Object
-  },
-  mounted() {
-    console.log(this.car);
   }
 }
 </script>

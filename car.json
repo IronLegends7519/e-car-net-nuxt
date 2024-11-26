@@ -1,0 +1,23 @@
+[
+    {
+        "id":1,
+        "marque":"Peugeot",
+        "model":"208",
+        "year":2019,
+        "price":15000
+    },
+    {
+        "id":2,
+        "marque":"Renault",
+        "model":"Clio",
+        "year":2018,
+        "price":12000
+    },
+    {
+        "id":3,
+        "marque":"Citroen",
+        "model":"C3",
+        "year":2017,
+        "price":10000
+    }
+]

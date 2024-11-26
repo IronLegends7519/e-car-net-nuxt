@@ -1,12 +1,13 @@
 <script setup>
     import afficheVoiture from "../components/afficheVoiture.vue"
     import Filter from "../components/Filter.vue"
-    let tab = [{id:1, marque:"audi", modele:"A3"}, {id:2, marque:"bmw", modele:"serie 3"}]
+    import { ref } from "vue"
+    import tab from "../car.json"
     let marque = ref([])
     let model = ref([])
 
     marque.value = tab.map(car => car.marque)
-    model.value = tab.map(car => car.modele)
+    model.value = tab.map(car => car.model)
 
 
 </script>
