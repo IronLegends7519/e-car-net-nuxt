@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "email": "jodo@email.com",
+        "phone": "1234567890",
+        "password": "password"
+    },
+    {
+        "id": 2,
+        "name": "Jane Doe",
+        "email": "",
+        "phone": "0987654321",
+        "password": "password"
+    },
+    {
+        "id": 3,
+        "name": "John Smith",
+        "email": "",
+        "phone": "1231231234",
+        "password": "password"
+    }
+    
+]

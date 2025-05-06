@@ -2,9 +2,10 @@
     {
         "id":1,
         "marque":"Peugeot",
-        "model":"208",
+        "model":"2008",
         "year":2019,
-        "price":15000
+        "price":15000,
+        "image":"téléchargement.jpg"
     },
     {
         "id":2,
@@ -18,6 +19,14 @@
         "marque":"Citroen",
         "model":"C3",
         "year":2017,
+        "price":10000,
+        "image":""
+    },
+    {
+        "id":4,
+        "marque":"Citroen",
+        "model":"C5",
+        "year":2019,
         "price":10000
     }
 ]

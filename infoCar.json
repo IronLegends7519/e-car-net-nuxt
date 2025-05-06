@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "car": {
+        "marque": "Toyota",
+        "model": "Corolla",
+        "year": 2020,
+        "color": "blue"
+        },
+        "reparation": {
+        "type": "oil change",
+        "date": "2023-10-01",
+        "cost": 50,
+        "garage": "Auto Repair Shop",
+        "km": 15000,
+        "description": "Changed oil and filter."
+        }
+
+    },
+    {
+        "id": 2,
+        "car": {
+        "marque": "Honda",
+        "model": "Civic",
+        "year": 2019,
+        "color": "red",
+        "image": "civic.jpg"
+        },
+        "reparation": {
+        "type": "brake replacement",
+        "date": "2023-09-15",
+        "cost": 200,
+        "garage": "City Garage",
+        "km": 30000,
+        "description": "Replaced front brake pads and rotors."
+        }
+    },
+    {
+        "id": 3,
+        "car": {
+        "marque": "Ford",
+        "model": "Focus",
+        "year": 2018,
+        "color": "black",
+        "image": "focus.jpg"
+        },
+        "reparation": {
+        "type": "tire rotation",
+        "date": "2023-08-20",
+        "cost": 40,
+        "garage": "",
+        "km": 25000,
+        "description": ""
+        }
+    }
+]
